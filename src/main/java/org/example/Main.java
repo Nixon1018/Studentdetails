@@ -49,7 +49,8 @@ public class Main {
              else if(check==2)
             {
                 for(int i=0;i<test.size();i+=1) {
-                    LOGGER.info(test.get(i).name +" "+test.get(i).age+" "+test.get(i).gpa);
+                    String z = test.get(i).name +" "+test.get(i).age+" "+test.get(i).gpa;
+                    LOGGER.info(z);
                 }
             }
 
