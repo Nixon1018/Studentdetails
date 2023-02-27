@@ -4,17 +4,6 @@ import java.util.*;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
-class Student{
-    String name;
-    int age;
-    double gpa;
-    Student(String name,int age,double gpa)
-    {
-        this.name=name;
-        this.age=age;
-        this.gpa=gpa;
-    }
-}
 
 public class Main {
     private static final Logger LOGGER=Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
